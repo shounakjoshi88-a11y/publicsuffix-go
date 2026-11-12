@@ -3,13 +3,13 @@
 
 package publicsuffix
 
-const ListVersion = "PSL version 7a21dc (Sun Nov  8 13:20:59 2026)"
+const ListVersion = "PSL version 529030 (Wed Nov 11 17:18:09 2026)"
 
-func DefaultRules() [10409]Rule {
+func DefaultRules() [10419]Rule {
 	return r
 }
 
-var r = [10409]Rule{
+var r = [10419]Rule{
 	{1, "ac", 1, false},
 	{1, "com.ac", 2, false},
 	{1, "edu.ac", 2, false},
@@ -6975,6 +6975,7 @@ var r = [10409]Rule{
 	{1, "611.to", 2, true},
 	{1, "a2hosted.com", 2, true},
 	{1, "cpserver.com", 2, true},
+	{1, "abyme.dev", 2, true},
 	{1, "activetrail.biz", 2, true},
 	{1, "myaddr.dev", 2, true},
 	{1, "myaddr.io", 2, true},
@@ -7990,8 +7991,10 @@ var r = [10409]Rule{
 	{1, "pages.gay", 2, true},
 	{1, "bnr.la", 2, true},
 	{1, "bitbucket.io", 2, true},
+	{1, "ship.place", 2, true},
 	{1, "blackbaudcdn.net", 2, true},
 	{1, "of.je", 2, true},
+	{1, "prod.page", 2, true},
 	{1, "square.site", 2, true},
 	{1, "bluebite.io", 2, true},
 	{1, "boomla.net", 2, true},
@@ -8131,6 +8134,7 @@ var r = [10409]Rule{
 	{1, "objects.rma.cloudscale.ch", 4, true},
 	{1, "lpg.objectstorage.ch", 3, true},
 	{1, "rma.objectstorage.ch", 3, true},
+	{1, "cloudzyro.app", 2, true},
 	{1, "wnext.app", 2, true},
 	{1, "cnpy.gdn", 2, true},
 	{2, "otap.co", 3, true},
@@ -9004,6 +9008,7 @@ var r = [10409]Rule{
 	{1, "ai.studio", 2, true},
 	{1, "goupile.fr", 2, true},
 	{1, "pymnt.uk", 2, true},
+	{1, "gov.de", 2, true},
 	{1, "gov.nl", 2, true},
 	{1, "grafana-dev.net", 2, true},
 	{1, "grayjayleagues.com", 2, true},
@@ -9518,6 +9523,9 @@ var r = [10409]Rule{
 	{1, "mocha.app", 2, true},
 	{1, "mochausercontent.com", 2, true},
 	{1, "mocha-sandbox.dev", 2, true},
+	{1, "modelence.app", 2, true},
+	{1, "cloud.modelence.app", 3, true},
+	{1, "sandbox.modelence.app", 3, true},
 	{1, "modx.dev", 2, true},
 	{1, "bmoattachments.org", 2, true},
 	{1, "net.ru", 2, true},
@@ -9888,6 +9896,7 @@ var r = [10409]Rule{
 	{1, "ravpage.co.il", 3, true},
 	{1, "readthedocs-hosted.com", 2, true},
 	{1, "readthedocs.io", 2, true},
+	{1, "rwx.run", 2, true},
 	{1, "rhcloud.com", 2, true},
 	{1, "instances.spawn.cc", 3, true},
 	{2, "clusters.rdpa.co", 4, true},
@@ -10330,6 +10339,7 @@ var r = [10409]Rule{
 	{1, "vercel.run", 2, true},
 	{1, "now.sh", 2, true},
 	{1, "2038.io", 2, true},
+	{1, "vibekit.page", 2, true},
 	{1, "v-info.info", 2, true},
 	{1, "vistablog.ir", 2, true},
 	{1, "deus-canvas.com", 2, true},
